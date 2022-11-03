@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --orange: #E14D2A;
+    --dark-sec: #000000;
+    --white-text: #ffffff;
+    --footer-color-: #EDE4E0;
+}
+/*header*/
+header{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 120px;
+    background: url('./img/bg--test--2.jpg');
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    font-size: 1.6rem;
+    color: white;
+}
+/*main*/
+main{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    font-size: 2rem;
+}
+main section{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+main section .main-section--img--user{
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.17);
+    -webkit-user-drag: none;
+}
+main section .main-section--img--user:hover{
+    width: 70%;
+    height: 70%;
+    transition: all 2s;
+}
+main section h2 .main-section--span{
+    color: var(--orange);
+}
+main .skills{
+    background-color: var(--dark-sec);
+    color: var(--white-text);
+}
+main section .main-section-skills--fig{
+    display: block;
+}
+main section .main-section-skills--fig .main-sec-s-fig--items{
+    width: 60%;
+    height: 60%;
+}
+main section .main-section-skills--fig .main-sec-s-fig--items:hover{
+    width: 70%;
+    height: 70%;
+}
+main .services{
+    background-color: var(--white-text);
+    font-weight: 700;
+    text-align: center;
+}
+main section .section-services--h2{
+    color: var(--orange);
+    font-size: 3rem;
+}
+main section .services .services--ul{
+    text-align: left;
+    list-style: none;
+}
+main section .services .services-ul--items{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*footer*/
+footer{
+    background-color: var(--footer-color-);
+    height: 90px;
+    width: 100%;
+    display: inline-block;
+    font-size: 3rem;
+}
+footer a{
+    text-decoration: none;
+}
+footer .footer-logo{
+    width: 30px;
+    height: 30px;
+}
+footer .footer-ul--item{
+    display: inline-block;
+    padding: 1px 5px 0 5px;
+}
+footer .footer-a-report{
+    font-size: 1.3rem;
+    position: relative;
+    color: var(--dark-sec);
+}
+footer .footer-a-report:hover{
+    text-decoration: underline;
+    font-size: 1.9rem;
+    transition: 2s;
+}
